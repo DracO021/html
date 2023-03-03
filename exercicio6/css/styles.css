@@ -1,0 +1,119 @@
+*{
+    padding: 0%;/*Define para o navegador o espaço que será utilizado(que nesse caso é zero)*/
+    margin: 0%;/*Define o valor 0 como margem para a página*/
+    box-sizing: border-box;/*O espaçamento d padding conta para dentro da caixa*/
+    font-family: Arial, Helvetica, sans-serif;/*Define o tipo de fonte que será utilizada na página*/
+
+
+}
+header{ /*Configura o cabeçalho da página*/
+    background-color: rgb(22, 240, 84);/*Altera a cor de fundo do cabeçalho*/
+    color: rgb(0, 0, 0);
+    padding: 20px; /*Margem da área do cabeçalho*/
+    border-bottom: #000000 10px;
+    text-align: center;
+      
+    
+    
+    
+
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Grid de Produtos*/
+
+.container{
+background-color: rgb(6, 66, 232);/*Muda a cor do fundo da seção do container*/
+min-height: 60vh;/*altura mínima da seção deve ser de 60% da tela*/
+
+}
+
+.container {
+    max-width: 1200px;/*Largua máximada divisão Card*/
+    margin: 0 auto;/*Margem 0 na altura e centralizar o conteúdo na horizontal*/
+   
+}
+
+.card {
+    width: 31%; /*largura do carda em 31% do tamanho definido no product-container*/
+    display: inline-block; /*Posiciona os cardas lado a lado na mesma linha*/
+}
+
+.product-image {
+    height: 300px;/*Altura da Imagem*/
+    width: 100%;/*Ocupar 100% do espaço disponível no card*/
+    background-position: center;
+    background-size: cover;
+}
+#img-1 {
+    background-image: url(../Imagens/jack_torrance.jpg);
+}
+
+#img-2 {
+    background-image: url(../Imagens/yellow_guy.jfif);
+}
+
+#img-3 {
+    background-image: url(../Imagens/greg);
+}
+
+#img-4 {
+    background-image: url(../Imagens/shadow_o_ourico_2.jpg);
+}
+
+#img-5 {
+    background-image: url(../Imagens/puss_in_boots.jpg);
+}
+
+#img-6 {
+    background-image: url(../Imagens/pavao_genocida.jpg);
+}
+
+footer {
+    background-color: rgb(232, 15, 15);
+    text-align: center;
+    height: 80;
+    padding: 10px;
+}
+ p {
+    color: rgb(0, 0, 0);
+ }
+
+ h1 {
+    color: rgb(255, 255, 255);
+ }
+
+ h3 {
+    margin-bottom: 10px;
+    color: #ff0808;
+    font-size: 24px;
+ }
+
+ .card p {
+    margin-bottom: 10px;
+ }
+
+ .btn {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;/*Remove o sublinhado do texto*/
+    background-color: rgb(234, 14, 230);
+    color: rgb(24, 238, 56); 
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 10px;
+ }
+
+ .btn:hover { /*Altera o comportamento do botão quando o cursor do mouse estiver nele*/
+    background-color: rgb(36, 31, 31);
+}
+
+
+
+    
+  
+
+
