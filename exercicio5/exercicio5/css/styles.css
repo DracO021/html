@@ -48,27 +48,27 @@ text-align: center;
     background-size: cover;
 }
 #img-1 {
-    background-image: url(../Imagens/tenis1.jpg);
+    background-image: url(Imagens/tenis1.jpg);
 }
 
 #img-2 {
-    background-image: url(../Imagens/tenis2.jpg);
+    background-image: url(Imagens/tenis2.jpg);
 }
 
 #img-3 {
-    background-image: url(../Imagens/tenis3.jpg);
+    background-image: url(Imagens/tenis3.jpg);
 }
 
 #img-4 {
-    background-image: url(../Imagens/tenis4.jpg);
+    background-image: url(Imagens/tenis4.jpg);
 }
 
 #img-5 {
-    background-image: url(../Imagens/tenis5.jpg);
+    background-image: url(Imagens/tenis5.jpg);
 }
 
 #img-6 {
-    background-image: url(../Imagens/tenis6.jpg);
+    background-image: url(Imagens/tenis6.jpg);
 }
 
 footer {
