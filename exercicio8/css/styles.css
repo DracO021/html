@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+/*Estilo do body*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+}
+
+.anotacao {
+    background-color: rgb(0, 255, 34);
+    padding: 10px; /*disância do texto das margens e do rodapé em todas as direções*/
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.cabecalho {
+    color: rgb(0, 0, 0);
+    padding: 60px;
+    text-align: center;
+    background-image: url(../imagem/Banner\ para\ desktop\ .png);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+/*Estilo da barra de navegação*/
+
+.barra-nav {
+    display: flex;
+    background-color: rgb(214, 17, 17);
+}
+
+/*Estilo dos links da barra de navegação*/
+
+.barra-nav a {
+    color: rgb(255, 255, 255);
+    padding: 14px 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Trocar a cor de fundo quando o cursor estiver sobre o link*/
+
+.barra-nav a:hover {
+    background-color: rgb(111, 94, 126);
+    color: aquamarine;
+}
+
+/*Configurar a div coluna*/
+
+.coluna {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Criar 2 colunas desiguais (30 e 70%)*/
+
+.lateral {
+    flex: 30%;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    color: rgb(241, 241, 241);
+}
+
+.principal {
+    flex: 70%;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+/*Imagens Falsas apenas para marcação do espaço*/
+
+.imagem_falsa {
+    background-color: rgb(0, 151, 244);
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+}
+
+.imagem_falsa2 {
+    background-color: blueviolet;
+    width: 100%;
+    padding: 10px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.imagem_falsa3 {
+    background-color: blueviolet;
+    width: 100%;
+    padding: 10px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.imagem_falsa4 {
+    background-color: blueviolet;
+    width: 100%;
+    padding: 10px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.imagem_falsa5 {
+    background-color: rgb(0, 21, 255);
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+}
+
+.imagem_falsa6 {
+    background-color: rgb(0, 21, 255);
+    padding: 20px;
+    height: 200px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .coluna, .barra-nav {
+        flex-direction:column
+    }
+
+    .cabecalho {
+        background-image: url(../imagem/Banner\ para\ mobile.jpg);
+        background-size: cover;
+        color: rgb(255, 255, 255);
+    
+    }
+}
+
+.rodape {
+    max-height: fit-content;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(246, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
